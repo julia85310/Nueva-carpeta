@@ -1,0 +1,68 @@
+<!--
+.primero{}
+p.primero{}
+section.primero{}
+#paco{ }
+p#segundo{}
+.primero span{ }
+.primero > span{ }
+span .primero{}
+.primero.parte{ } 
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo de Selectores CSS</title>
+  <style>
+    .primero {  /*Se aplica a los que tengan clase 'primero'*/
+      color: red;
+    }
+
+    p.primero { /*Se aplica a los elementos p que tengan clase 'primero'*/
+      background-color: lightblue;
+    }
+
+    section.primero { /*Se aplica a los elementos section que tengan clase 'primero'*/
+      background-color: yellow;
+    }
+
+    #paco { /*Se aplica a los elementos con id paco*/
+      font-style: italic;
+    }
+
+    p#segundo { /*Se aplica a los elementos p que tengan id segundo*/
+      text-decoration: underline;
+    }
+
+    .primero span { /*Se aplica a los span hijos de una etiqueta con clase primero*/
+      color:pink;
+    }
+
+    .primero > span { /*Se aplica a los span hijos directos de una etiqueta con clase primero*/
+      font-style: oblique;
+    }
+
+    span .primero { /*Se aplica a los elementos con clase primero hijos de span*/
+      text-transform: uppercase;
+    }
+
+    .primero.parte { /*se aplica a los elementos de clase parte y de clase primero*/
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="primero">Tengo color rojo.</div> 
+  <p class="primero">Tengo color rojo y mi color de fondo es azul clarito.</p> 
+  <section class="primero">Tengo color rojo y mi color de fondo es amarillo</section> 
+  <p id="paco">Tengo la fuente italic</p> 
+  <p id="segundo">Estoy subrayado</p> 
+  <div class="primero"><p><span>Tengo color rosa</span></p></div> 
+  <div class="primero"><span>Tengo fuente oblique y color rosa</span></div> 
+  <span><div class="primero">Tengo color rojo y estoy en mayúsculas</div></span> 
+  <div class="primero parte">Tengo color rojo y estoy en negrita</div> 
+</body>
+</html>

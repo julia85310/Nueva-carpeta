@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PepeVerduras-home</title>
+    <link rel="stylesheet" href="estilosmipag.css">
+</head>
+<body>
+    <header>
+        <h1>PepeVerduras</h1>
+        <img alt="logoPepeVerduras" src="pepeverduras.jpg" width="90" height="100">
+    </header>
+    <nav> 
+        <a href="info.html">Información</a>
+        <a href="login.html">Regístrate o Inicia sesión</a>
+    </nav>
+    <br>
+    <main>
+        <section>
+            <h2>¡Bienvenido a Pepeverduras!</h2>
+            <p>Compra las frutas y verduras de temporada más frescas y deliciosas.</p>
+            <img alt="Chica comiendo saludable" src="comerverdura.jpg" width="160" height="100">
+        </section>
+        <section>
+            <form>
+                <h2>Compra de verduras</h2>
+                
+                <select>
+                    <option value="pimientos">pimientos</option> 
+                    <option value="zanahorias">zanahorias</option> 
+                    <option value="tomates">tomates</option> 
+                </select><br><br>
+            
+                <label for="cantidad">Cantidad:</label>
+                <input type="text" id="cantidad" name="cantidad" pattern="[0-9]+\s?(ud|kg|gr)"  placeholder="ud/kg/gr"required>
+                <br><br>
+                
+                <input type="submit" value="Comprar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>
+            <b>Correo de contacto:</b> pepeverduras@gmail.com
+        </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PepeVerduras-home</title>
+    <link rel="stylesheet" href="estilosmipag.css">
+</head>
+<body>
+    <header>
+        <h1>PepeVerduras</h1>
+        <img alt="logoPepeVerduras" src="pepeverduras.jpg" width="90" height="100">
+    </header>
+    <nav> 
+        <a href="index.html">Home</a> 
+        <a href="info.html">Información</a>
+    </nav>
+    <br>
+    <main>
+        <section>
+            <audio src="loropepe.mpeg" controls></audio>
+        </section>
+        <section>
+            <details>
+                <summary>Regístrate</summary>
+                <form method="GET" action="">
+                    <p>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" maxlength="50" required>
+                    </p>
+                    <p>
+                        <label for="last name">Apellidos:</label>
+                        <input type="text" id="last name" name="last name" maxlength="50" required>
+                    </p>
+                    <p>
+                        <label for="sexo">Sexo:</label>
+                        <input type="radio" id="hombre" name="sexo" value="hombre" required>
+                        <label for="hombre">Hombre</label>
+                        <input type="radio" id="mujer" name="sexo" value="mujer" required>
+                        <label for="mujer">Mujer</label><br>
+                    </p>
+                    <p>
+                        <label for="correo">Correo Electrónico:</label>
+                        <input type="email" id="correo" name="correo" required>
+                    </p>
+                    <p>
+                        <label for="contraseña">Contraseña:</label>
+                        <input type="password" id="contraseña" name="contraseña" required>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="info" name="info" checked>
+                        <label for="info">Deseo recibir información sobre novedades y ofertas</label><br>
+                
+                        <input type="checkbox" id="acepto" name="acepto" required>
+                        <label for="acepto">Declaro haber leído y aceptar las condiciones generales del programa
+                        y la normativa sobre protección de datos</label><br>    
+                    </p>
+                    <input type="submit" value="Regístrate">
+            </details>
+            <details>
+                <summary>Inicia sesión</summary>
+                <form method="GET" action="">
+                    <p>
+                        <label for="correo">Correo Electrónico:</label>
+                        <input type="email" id="correo" name="correo" required>
+                    </p>
+                    <p>
+                        <label for="contraseña">Contraseña:</label>
+                        <input type="password" id="contraseña" name="contraseña" required>
+                    </p>
+                    <input type="submit" value="Iniciar sesión">
+            </details>
+        </section>
+    </main>
+    <footer>
+        <p>
+            <b>Correo de contacto:</b> pepeverduras@gmail.com
+        </p>
+    </footer>
+</body>
+</html>

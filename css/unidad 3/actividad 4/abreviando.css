@@ -1,0 +1,35 @@
+.uno {
+  font: 1.5em/200%, bold, italic, Georgia, 'Times New Roman', Times, serif;
+}
+
+.dos {
+  background: #000, url(image.gif), no-repeat, top left;
+} 
+
+.tres {
+  list-style: circle, inside, url(bullet.gif);
+} 
+
+.cuatro {
+  border-width: 2px, solid, black;
+} 
+
+.cinco {
+  margin: 1em 0.5em 2em 2.5em;
+} 
+
+.seis {
+  padding: 1em;
+} 
+
+.siete {
+  margin: 1em 2em;
+} 
+
+.ocho {
+  margin: 1.5em 1.5em 1.5em 0.5em;
+} 
+
+.nueve {
+  margin: 1.5em 0.5em 1em 0.5em;
+} 

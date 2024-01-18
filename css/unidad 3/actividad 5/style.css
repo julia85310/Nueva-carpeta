@@ -1,0 +1,91 @@
+/*color teal, red, blue, orange, purple, olive, fuchsia y green.*/
+h1{
+    color:teal;
+}
+
+
+h2{
+    color:blue;
+}
+
+
+strong{
+    color:red;
+}
+
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+th, td{
+    border: 1px solid black;
+    padding: 7px;
+}
+
+
+.destacado{
+    color: orange;
+}
+
+
+a  em{
+    color:blue;
+}
+
+
+a{
+    color:red;
+}
+
+
+span.especial{
+    color:purple;
+}
+
+
+caption{
+    color:blue;
+}
+
+
+th.especial{
+    color:orange;
+}
+
+
+tfoot{
+    color:red;
+}
+
+
+tbody{
+    color:green;
+}
+
+
+td strong{
+    color:orange;
+}
+
+
+tbody th{
+    color:red;
+}
+
+
+#adicional{
+    color:olive;
+}
+
+
+
+#especial{
+    color:fuchsia;
+}
+
+div p a{
+    color:green;
+}

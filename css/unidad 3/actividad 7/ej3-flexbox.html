@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*Crea un fichero ej3-flexbox.html y añade 12 divs posicionados con
+        flex. Estos deben de tomar las siguientes direcciones. Los tres 
+        primeros en fila, los siguientes en fila inversa, a continuación en
+        columnas y los tres restantes en columna inversa. ¿Cómo podrías
+        hacer para que todos los divs se mostrasen en una misma fila haciendo un grid?*/
+       
+        .fila{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .filaInversa{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .columna{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .columnaInversa{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    </style>
+</head>
+<body>
+    <div class="fila">
+        <div>Div1</div>
+        <div>Div2</div>
+        <div>Div3</div>
+    </div>
+    <div class="filaInversa">
+        <div>Div4</div>
+        <div>Div5</div>
+        <div>Div6</div>
+    </div>
+    <div class="columna">
+        <div>Div7</div>
+        <div>Div8</div>
+        <div>Div9</div>
+    </div>
+    <div class="columnaInversa">
+        <div>Div10</div>
+        <div>Div11</div>
+        <div>Div12</div>
+    </div>
+</body>
+</html>

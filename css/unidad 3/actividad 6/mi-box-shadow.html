@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Propiedades CSS - Border</title>
+    <style>
+      
+      div {
+        float: left;
+        margin: 40px;
+        width: 300px;
+        height: 300px;
+        background-color:rgba(255, 255, 255, 0.05);
+        border-radius: 6px;
+      }
+
+      div:nth-child(1) {
+        -webkit-box-shadow: -2px -5px 71px 41px rgba(235,255,255,1);
+        -moz-box-shadow: -2px -5px 71px 41px rgba(235,255,255,1);
+        box-shadow: outset -2px -5px 71px 41px rgba(235,255,255,1);
+        background-color:rgba(235,255,255,1);
+      }
+
+      div:nth-child(2) {
+        -webkit-box-shadow: inset -3px 9px 6px 41px rgba(255,254,237,1);
+        -moz-box-shadow: inset -3px 9px 6px 41px rgba(255,254,237,1);
+        box-shadow: inset -3px 9px 6px 41px rgba(255,254,237,1);
+      }
+
+      div:nth-child(3) {
+        -webkit-box-shadow: inset -64px -8px 95px -43px rgba(51,1,1,1);
+        -moz-box-shadow: inset -64px -8px 95px -43px rgba(51,1,1,1);
+        box-shadow: inset -64px -8px 95px -43px rgba(51,1,1,1);
+      }
+
+      div:nth-child(4) {
+        -webkit-box-shadow: 0px 8px 24px 36px rgba(44,1,51,1);
+        -moz-box-shadow: 0px 8px 24px 36px rgba(44,1,51,1);
+        box-shadow: outset 0px 8px 24px 36px rgba(44,1,51,1);
+      }
+
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </body>
+</html>
